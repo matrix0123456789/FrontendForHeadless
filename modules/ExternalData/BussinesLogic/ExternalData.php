@@ -46,6 +46,12 @@ class ExternalData
         }
         return ['rows' => $rows, 'total' => $total];
     }
+
+    public function insert(string $objectName, $object)
+    {
+        $dataSource = $this->getDataSource($objectName);
+        $dataSource->insert($objectName, $object);
+    }
 }
 
 ExternalDataInitialization::init();

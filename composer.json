@@ -1,7 +1,8 @@
 {
     "require":  {
-                    "wikimedia/composer-merge-plugin":  "dev-master"
-                },
+                    "wikimedia/composer-merge-plugin":  "dev-master",
+        "ext-curl": "*"
+    },
     "config":  {
                    "allow-plugins":  {
                                          "wikimedia/composer-merge-plugin":  true
