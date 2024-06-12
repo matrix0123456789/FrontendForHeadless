@@ -288,3 +288,76 @@ Stack trace:
 #16 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
 #17 {main}
   thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 31
+[12-Jun-2024 15:52:24 UTC] PHP Deprecated:  Creation of dynamic property React\Socket\Connection::$decor is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 83
+[12-Jun-2024 15:52:24 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$resourceId is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 84
+[12-Jun-2024 15:52:24 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$remoteAddress is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 87
+[12-Jun-2024 15:52:24 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpHeadersReceived is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php on line 33
+[12-Jun-2024 15:52:24 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpBuffer is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpRequestParser.php on line 30
+[12-Jun-2024 15:52:24 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpRequest is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 112
+[12-Jun-2024 15:52:24 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$WebSocket is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 114
+[12-Jun-2024 15:52:25 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$extended is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\AbstractConnectionDecorator.php on line 27
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property React\Socket\Connection::$decor is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 83
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$resourceId is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 84
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$remoteAddress is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 87
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpHeadersReceived is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php on line 33
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpBuffer is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpRequestParser.php on line 30
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpRequest is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 112
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$WebSocket is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 114
+[12-Jun-2024 16:05:12 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$extended is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\AbstractConnectionDecorator.php on line 27
+[12-Jun-2024 16:25:23 UTC] TypeError: array_keys(): Argument #1 ($array) must be of type array, stdClass given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:26
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php(26): array_keys(Object(stdClass))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(20): ExternalData\BussinesLogic\RestApiDataSource->getSchemaNames()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(14): ExternalData\BussinesLogic\ExternalData->getObjectSchema('jkdfsvkjnfsd')
+#3 [internal function]: ExternalData\Controllers\ExternalDataController->list_data('jkdfsvkjnfsd')
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(112): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/l...')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+[12-Jun-2024 16:30:10 UTC] TypeError: ExternalData\BussinesLogic\RestApiDataSource::getSchema(): Return value must be of type array, stdClass returned in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:32
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(22): ExternalData\BussinesLogic\RestApiDataSource->getSchema('product')
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(15): ExternalData\BussinesLogic\ExternalData->getObjectSchema('product')
+#2 [internal function]: ExternalData\Controllers\ExternalDataController->list_data('product')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(112): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/l...')
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#8 {main}
+[12-Jun-2024 16:43:21 UTC] Error: Call to undefined method ExternalData\BussinesLogic\RestApiDataSource::getObjectSchema() in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php:30
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(15): ExternalData\BussinesLogic\ExternalData->getObjectSchema('product')
+#1 [internal function]: ExternalData\Controllers\ExternalDataController->list_data('product')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(112): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/l...')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+[12-Jun-2024 16:47:05 UTC] TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:39
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php(39): count(Object(stdClass))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(39): ExternalData\BussinesLogic\RestApiDataSource->getTable('product')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Ajax\ExternalDataAjax.php(13): ExternalData\BussinesLogic\ExternalData->getTable(Object(stdClass))
+#3 [internal function]: ExternalData\Ajax\ExternalDataAjax->getTable(Object(stdClass))
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Ajax\ExternalDataAjax), Array)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+[12-Jun-2024 16:47:35 UTC] TypeError: count(): Argument #1 ($value) must be of type Countable|array, stdClass given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:39
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php(39): count(Object(stdClass))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(39): ExternalData\BussinesLogic\RestApiDataSource->getTable('product')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Ajax\ExternalDataAjax.php(13): ExternalData\BussinesLogic\ExternalData->getTable(Object(stdClass))
+#3 [internal function]: ExternalData\Ajax\ExternalDataAjax->getTable(Object(stdClass))
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Ajax\ExternalDataAjax), Array)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}

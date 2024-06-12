@@ -1,0 +1,4 @@
+<section class="card page-ExternalData-list" data-width="6">
+    Hello world
+    <div class="externalDataList"></div>
+</section>
