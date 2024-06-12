@@ -1,0 +1,10 @@
+{
+    "packages":  {
+                     "Core":  "https://gitlab.com/MateuszKrawczyk/framework_core.git",
+                     "CommonBase":  "https://github.com/GreenCodeStudio/GreenCodeFramework-CommonBase",
+                     "User":  "https://github.com/GreenCodeStudio/GreenCodeFramework-User.git",
+                     "Authorization":  "https://github.com/GreenCodeStudio/GreenCodeFramework-Authorization.git",
+                     "Search":  "https://github.com/GreenCodeStudio/GreenCodeFramework-Search.git",
+        "Notifications":  "https://github.com/GreenCodeStudio/GreenCodeFramework-Notifications.git"
+    }
+}

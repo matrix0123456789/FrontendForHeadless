@@ -1,0 +1,49 @@
+PHP Warning:  Undefined array key "dbDialect" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 212
+PHP Warning:  Undefined array key "db" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 213
+PHP Warning:  Undefined array key "dbUser" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 214
+PHP Warning:  Undefined array key "dbPass" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 215
+PHP Warning:  Undefined array key "cached_code" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php on line 294
+PHP Warning:  Undefined array key "HTTP_HOST" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Authorization\Authorization.php on line 126
+TypeError: Authorization\Repository\AuthorizationRepository::__construct(): Argument #1 ($host) must be of type string, null given, called in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Authorization\Authorization.php on line 126 and defined in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Authorization\Repository\AuthorizationRepository.php:13
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Authorization\Authorization.php(126): Authorization\Repository\AuthorizationRepository->__construct(NULL)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Authorization\AsyncJobs\AuthorizationJob.php(9): Authorization\Authorization->refreshUserData()
+#2 [internal function]: Authorization\AsyncJobs\AuthorizationJob->refreshUserData()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(Authorization\AsyncJobs\AuthorizationJob), Array)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(201): Core\Routing\Router->invoke()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\AsyncJob.php(16): Core\Routing\Router::routeAsyncJob('AuthorizationJo...', 'refreshUserData', Array)
+#7 {main}
+PHP Warning:  Undefined array key "debug" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php on line 284
+PHP Warning:  Undefined array key "dbDialect" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 212
+PHP Warning:  Undefined array key "db" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 213
+PHP Warning:  Undefined array key "dbUser" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 214
+PHP Warning:  Undefined array key "dbPass" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 215
+PHP Warning:  Undefined array key "cached_code" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php on line 294
+PHP Deprecated:  PDO::__construct(): Passing null to parameter #1 ($dsn) of type string is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 45
+PDOException: PDO::__construct(): Argument #1 ($dsn) must be a valid data source name in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php:45
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php(45): PDO->__construct('', NULL, Object(SensitiveParameterValue))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php(179): Core\Database\DB::connect()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Search\Repository\SearchRepository.php(24): Core\Database\DB::insertMultiple('search', Array)
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Search\Search.php(36): Search\Repository\SearchRepository->replace(Array, Array, '66698152bfebf')
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Search\AsyncJobs\Search.php(9): Search\Search->generateSearchIndex()
+#5 [internal function]: Search\AsyncJobs\Search->generateSearchIndex()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(Search\AsyncJobs\Search), Array)
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(201): Core\Routing\Router->invoke()
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\AsyncJob.php(16): Core\Routing\Router::routeAsyncJob('Search', 'generateSearchI...', Array)
+#10 {main}
+PHP Warning:  Undefined array key "debug" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php on line 284
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142
+PHP Deprecated:  Use of "static" in callables is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 142

@@ -1,0 +1,19 @@
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule . index.php?oryginal_request_uri=%{REQUEST_URI}&%{QUERY_STRING} [L]
+
+    <IfModule mod_headers.c>
+        <If "%{QUERY_STRING} =~ /File.get/">
+        </If>
+        <Else>
+            Header set Cache-Control "no-cache, no-store, must-revalidate"
+            Header set Pragma "no-cache"
+            Header set Expires 0
+        </Else>
+        Header set Service-Worker-Allowed "/"
+        Header set x-sw-version "1718198081"
+        <FilesMatch "/dist/.*">
+            Header set x-sw-cache "1"
+        </FilesMatch>
+    </IfModule>

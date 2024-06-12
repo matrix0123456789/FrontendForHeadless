@@ -1,0 +1,290 @@
+[12-Jun-2024 11:06:58 UTC] PHP Warning:  Undefined array key "websocketPort" in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\WebSocket\Server.php on line 20
+[12-Jun-2024 11:06:58 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Invalid URI "tcp://0.0.0.0:" given (EINVAL) in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\react\socket\src\TcpServer.php:157
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\react\socket\src\Server.php(77): React\Socket\TcpServer->__construct('tcp://0.0.0.0:', Object(React\EventLoop\StreamSelectLoop), Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php(59): React\Socket\Server->__construct('0.0.0.0:', Object(React\EventLoop\StreamSelectLoop))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\WebSocket\Server.php(20): Ratchet\Server\IoServer::factory(Object(Ratchet\Http\HttpServer), NULL)
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\initWebsocketService.php(13): Core\WebSocket\Server::init()
+#4 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\react\socket\src\TcpServer.php on line 157
+[12-Jun-2024 11:10:38 UTC] PHP Fatal error:  Uncaught Error: Class "Common\PageStandardController" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php:8
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(325): include_once()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(297): Core\Routing\Router->findControllerClass()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(47): Core\Routing\Router->prepareController()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php on line 8
+[12-Jun-2024 11:10:38 UTC] PHP Fatal error:  Uncaught Error: Class "Common\PageStandardController" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php:8
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(325): include_once()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(297): Core\Routing\Router->findControllerClass()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(47): Core\Routing\Router->prepareController()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php on line 8
+[12-Jun-2024 11:14:47 UTC] PHP Fatal error:  Uncaught Error: Class "Common\PageStandardController" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php:8
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(325): include_once()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(297): Core\Routing\Router->findControllerClass()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(47): Core\Routing\Router->prepareController()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php on line 8
+[12-Jun-2024 11:14:49 UTC] PHP Fatal error:  Uncaught Error: Class "Common\PageStandardController" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php:8
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(325): include_once()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(297): Core\Routing\Router->findControllerClass()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(47): Core\Routing\Router->prepareController()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Controllers\Error.php on line 8
+[12-Jun-2024 11:15:02 UTC] PHP Fatal error:  Class Common\PageStandardController contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Core\StandardController::getPageTitle) in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Common\PageStandardController.php on line 5
+[12-Jun-2024 11:15:18 UTC] PHP Fatal error:  Class Common\PageStandardController contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Core\StandardController::getPageTitle) in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Common\PageStandardController.php on line 5
+[12-Jun-2024 11:15:41 UTC] PHP Fatal error:  Uncaught TypeError: Notifications\Notifications::getForUser(): Argument #1 ($id_user) must be of type int, null given, called in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php on line 69 and defined in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php:72
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php(69): Notifications\Notifications->getForUser(NULL)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(17): Notifications\Notifications->getForCurrentUser()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#8 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php on line 72
+[12-Jun-2024 11:16:38 UTC] PHP Fatal error:  Uncaught TypeError: Notifications\Notifications::getForUser(): Argument #1 ($id_user) must be of type int, null given, called in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php on line 69 and defined in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php:72
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php(69): Notifications\Notifications->getForUser(NULL)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(17): Notifications\Notifications->getForCurrentUser()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#8 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php on line 72
+[12-Jun-2024 11:16:40 UTC] PHP Fatal error:  Uncaught TypeError: Notifications\Notifications::getForUser(): Argument #1 ($id_user) must be of type int, null given, called in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php on line 69 and defined in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php:72
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php(69): Notifications\Notifications->getForUser(NULL)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(17): Notifications\Notifications->getForCurrentUser()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#8 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php on line 72
+[12-Jun-2024 11:17:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:18:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:19:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:19:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:21:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:21:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Core\Exceptions\NotFoundException), 404)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Core\Exceptions\NotFoundException))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:22:27 UTC] Error: Class "\Common\Controllers\StartController" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php:299
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(18): Core\Routing\Router->prepareController()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(41): Core\Routing\StandardRouter->findController()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#4 {main}
+[12-Jun-2024 11:22:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Error), 500)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Error))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:22:39 UTC] Error: Class "\Common\Controllers\StartController" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php:299
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(18): Core\Routing\Router->prepareController()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(41): Core\Routing\StandardRouter->findController()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#4 {main}
+[12-Jun-2024 11:23:09 UTC] Error: Class "\Common\Controllers\StartController" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php:299
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(18): Core\Routing\Router->prepareController()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(41): Core\Routing\StandardRouter->findController()
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#4 {main}
+[12-Jun-2024 11:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function can() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php:23
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php(43): generateMenu(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(60): require('C:\\other\\Docume...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(18): Core\StandardController->addView('CommonBase', 'aside', Array, 'aside')
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(Error), 500)
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(Error))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\Views\aside.php on line 23
+[12-Jun-2024 11:24:49 UTC] Error: Class "Redis" not found in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\MiniDB.php:14
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Repository\IdempodencyKeyRepostory.php(11): Core\Database\MiniDB::GetConnection()
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(86): Core\Repository\IdempodencyKeyRepostory->Test('4434635c6669839...')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/Authoriza...')
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#6 {main}
+[12-Jun-2024 11:27:09 UTC] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'example.notification' doesn't exist in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php:31
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php(31): PDOStatement->execute(Array)
+#1 [internal function]: Core\Database\DB::iterate('SELECT * FROM n...', Array)
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\IteratorNode.php(36): Generator->valid()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\IteratorNode.php(47): MKrawczyk\FunQuery\IteratorNode->read(0)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SubIteratorNode.php(53): MKrawczyk\FunQuery\IteratorNode->hasItem(0)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SubMapNode.php(61): MKrawczyk\FunQuery\SubIteratorNode->valid()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\FunQuery.php(116): MKrawczyk\FunQuery\SubMapNode->valid()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Repository\NotificationsRepository.php(26): MKrawczyk\FunQuery\FunQuery->toArray()
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php(76): Notifications\Repository\NotificationsRepository->getForUser(1)
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php(71): Notifications\Notifications->getForUser(1)
+#10 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(17): Notifications\Notifications->getForCurrentUser()
+#11 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#12 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#13 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#14 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#15 {main}
+[12-Jun-2024 11:27:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'example.notification' doesn't exist in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php:31
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php(31): PDOStatement->execute(Array)
+#1 [internal function]: Core\Database\DB::iterate('SELECT * FROM n...', Array)
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\IteratorNode.php(36): Generator->valid()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\IteratorNode.php(47): MKrawczyk\FunQuery\IteratorNode->read(0)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SubIteratorNode.php(53): MKrawczyk\FunQuery\IteratorNode->hasItem(0)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SubMapNode.php(61): MKrawczyk\FunQuery\SubIteratorNode->valid()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\FunQuery.php(116): MKrawczyk\FunQuery\SubMapNode->valid()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Repository\NotificationsRepository.php(26): MKrawczyk\FunQuery\FunQuery->toArray()
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php(76): Notifications\Repository\NotificationsRepository->getForUser(1)
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Notifications\Notifications.php(71): Notifications\Notifications->getForUser(1)
+#10 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\CommonBase\PageStandardControllerTrait.php(17): Notifications\Notifications->getForCurrentUser()
+#11 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(65): Common\PageStandardController->postAction()
+#12 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(52): Core\Routing\StandardRouter->invoke()
+#13 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(34): Core\Routing\StandardRouter->prepareErrorController(Object(PDOException), 500)
+#14 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(44): Core\Routing\StandardRouter->sendBackException(Object(PDOException))
+#15 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/')
+#16 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#17 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Database\DB.php on line 31
