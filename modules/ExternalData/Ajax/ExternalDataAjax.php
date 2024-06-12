@@ -13,7 +13,10 @@ class ExternalDataAjax extends PageAjaxController
     }
     public function insert(string $objectName, $object)
     {
-        dump(1);
         (new ExternalData())->insert($objectName, $object);
+    }
+    public function update(string $objectName,string $id, $object)
+    {
+        (new ExternalData())->update($objectName, $id, $object);
     }
 }

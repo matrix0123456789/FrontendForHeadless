@@ -52,6 +52,17 @@ class ExternalData
         $dataSource = $this->getDataSource($objectName);
         $dataSource->insert($objectName, $object);
     }
+    public function update(string $objectName,string $id, $object)
+    {
+        $dataSource = $this->getDataSource($objectName);
+        $dataSource->update($objectName,$id, $object);
+    }
+
+    public function getObject(string $objectName, string $id)
+    {
+        $dataSource = $this->getDataSource($objectName);
+        return $dataSource->getObject($objectName, $id);
+    }
 }
 
 ExternalDataInitialization::init();

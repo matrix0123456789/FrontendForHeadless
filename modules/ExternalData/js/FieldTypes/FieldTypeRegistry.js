@@ -5,9 +5,9 @@ import IntField from "./intField";
 
 export const FieldTypeRegistry = {
     fieldTypes: {string: StringField, int: IntField, number: NumberField, date: DateField},
-    generate(config) {
+    generate(config, value=null) {
         if (this.fieldTypes[config.type]) {
-            return this.fieldTypes[config.type].generate(config);
+            return this.fieldTypes[config.type].generate(config, value);
         }
     },
     readData(htmlNode, config) {

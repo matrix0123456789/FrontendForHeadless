@@ -24,4 +24,15 @@ class ExternalDataController extends \Common\PageStandardController
         $schema = (new ExternalData)->getObjectSchema($objectName);
         return ['schema' => $schema, 'objectName'=>$objectName];
     }
+
+    public function edit(string $objectName, string $id)
+    {
+        $this->addView('ExternalData', 'ExternalDataEdit', ['type' => 'add']);
+    }
+    public function edit_data(string $objectName, string $id)
+    {
+        $schema = (new ExternalData)->getObjectSchema($objectName);
+        $data = (new ExternalData)->getObject($objectName, $id);
+        return ['schema' => $schema, 'objectName'=>$objectName, 'data'=>$data, 'id'=>$id];
+    }
 }
