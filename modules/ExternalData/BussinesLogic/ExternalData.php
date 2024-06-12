@@ -36,8 +36,15 @@ class ExternalData
         $objectName = $config->params->objectName;
         dump($objectName);
         $dataSource = $this->getDataSource($objectName);
-        $data = $dataSource->getTable($objectName);
-        return ['rows' => $data->rows, 'total' => count($data->rows)];
+        $data = $dataSource->getTable($objectName, $config);
+        $rows = $data->rows;
+        if (!$data->pagination) {
+            $rows = array_slice($rows, $config->start, $config->limit);
+            $total = count($data->rows);
+        } else {
+            $total = $data->total;
+        }
+        return ['rows' => $rows, 'total' => $total];
     }
 }
 

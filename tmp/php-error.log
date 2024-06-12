@@ -361,3 +361,61 @@ Stack trace:
 #7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
 #8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
 #9 {main}
+[12-Jun-2024 16:57:13 UTC] TypeError: urlencode(): Argument #1 ($string) must be of type string, stdClass given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:42
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php(42): urlencode(Object(stdClass))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(39): ExternalData\BussinesLogic\RestApiDataSource->getTable('product', Object(stdClass))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Ajax\ExternalDataAjax.php(13): ExternalData\BussinesLogic\ExternalData->getTable(Object(stdClass))
+#3 [internal function]: ExternalData\Ajax\ExternalDataAjax->getTable(Object(stdClass))
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Ajax\ExternalDataAjax), Array)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+[12-Jun-2024 16:57:26 UTC] Error: Object of class stdClass could not be converted to string in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:42
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(39): ExternalData\BussinesLogic\RestApiDataSource->getTable('product', Object(stdClass))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Ajax\ExternalDataAjax.php(13): ExternalData\BussinesLogic\ExternalData->getTable(Object(stdClass))
+#2 [internal function]: ExternalData\Ajax\ExternalDataAjax->getTable(Object(stdClass))
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Ajax\ExternalDataAjax), Array)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#8 {main}
+[12-Jun-2024 16:58:43 UTC] Error: Object of class stdClass could not be converted to string in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:42
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(39): ExternalData\BussinesLogic\RestApiDataSource->getTable('product', Object(stdClass))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Ajax\ExternalDataAjax.php(13): ExternalData\BussinesLogic\ExternalData->getTable(Object(stdClass))
+#2 [internal function]: ExternalData\Ajax\ExternalDataAjax->getTable(Object(stdClass))
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Ajax\ExternalDataAjax), Array)
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#8 {main}
+[12-Jun-2024 17:01:32 UTC] TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:46
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php(46): count(NULL)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(39): ExternalData\BussinesLogic\RestApiDataSource->getTable('product', Object(stdClass))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Ajax\ExternalDataAjax.php(13): ExternalData\BussinesLogic\ExternalData->getTable(Object(stdClass))
+#3 [internal function]: ExternalData\Ajax\ExternalDataAjax->getTable(Object(stdClass))
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Ajax\ExternalDataAjax), Array)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
+[12-Jun-2024 17:02:56 UTC] TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php:46
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\RestApiDataSource.php(46): count(NULL)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(39): ExternalData\BussinesLogic\RestApiDataSource->getTable('product', Object(stdClass))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Ajax\ExternalDataAjax.php(13): ExternalData\BussinesLogic\ExternalData->getTable(Object(stdClass))
+#3 [internal function]: ExternalData\Ajax\ExternalDataAjax->getTable(Object(stdClass))
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Ajax\ExternalDataAjax), Array)
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#9 {main}
