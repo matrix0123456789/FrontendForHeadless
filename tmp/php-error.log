@@ -430,3 +430,140 @@ Stack trace:
 #6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
 #7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
 #8 {main}
+[18-Jun-2024 10:26:51 UTC] Authorization\Exceptions\BadAuthorizationException in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Authorization\Authorization.php:39
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Authorization\Ajax\Authorization.php(16): Authorization\Authorization::login('dev1', 'dev1')
+#1 [internal function]: Authorization\Ajax\Authorization->login('dev1', 'dev1')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(Authorization\Ajax\Authorization), Array)
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(70): Core\Routing\Router->runMethod()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\Router->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/Authoriza...')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property React\Socket\Connection::$decor is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 83
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$resourceId is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 84
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$remoteAddress is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 87
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpHeadersReceived is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php on line 33
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpBuffer is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpRequestParser.php on line 30
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpRequest is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 112
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$WebSocket is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 114
+[18-Jun-2024 10:27:01 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$extended is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\AbstractConnectionDecorator.php on line 27
+[18-Jun-2024 10:27:21 UTC] Error: Call to a member function getSchema() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php:31
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(15): ExternalData\BussinesLogic\ExternalData->getObjectSchema('category')
+#1 [internal function]: ExternalData\Controllers\ExternalDataController->list_data('category')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(112): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/l...')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+[18-Jun-2024 10:27:58 UTC] Error: Call to a member function getSchema() on null in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php:31
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(15): ExternalData\BussinesLogic\ExternalData->getObjectSchema('category')
+#1 [internal function]: ExternalData\Controllers\ExternalDataController->list_data('category')
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(112): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/l...')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#7 {main}
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property React\Socket\Connection::$decor is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 83
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$resourceId is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 84
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$remoteAddress is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 87
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpHeadersReceived is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php on line 33
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpBuffer is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpRequestParser.php on line 30
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpRequest is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 112
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$WebSocket is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 114
+[18-Jun-2024 10:29:34 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$extended is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\AbstractConnectionDecorator.php on line 27
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property React\Socket\Connection::$decor is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 83
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$resourceId is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 84
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$remoteAddress is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Server\IoServer.php on line 87
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpHeadersReceived is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpServer.php on line 33
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpBuffer is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\Http\HttpRequestParser.php on line 30
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$httpRequest is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 112
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$WebSocket is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\WebSocket\WsServer.php on line 114
+[18-Jun-2024 10:37:11 UTC] PHP Deprecated:  Creation of dynamic property Ratchet\Server\IoConnection::$extended is deprecated in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\cboden\ratchet\src\Ratchet\AbstractConnectionDecorator.php on line 27
+[18-Jun-2024 10:50:15 UTC] TypeError: MKrawczyk\Mpts\Nodes\Expressions\TEConcatenate::__construct(): Argument #1 ($left) must be of type MKrawczyk\Mpts\Nodes\Expressions\TEExpression, null given, called in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Parser\ExpressionParser.php on line 109 and defined in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\Expressions\TEConcatenate.php:12
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Parser\ExpressionParser.php(109): MKrawczyk\Mpts\Nodes\Expressions\TEConcatenate->__construct(NULL, Object(MKrawczyk\Mpts\Nodes\Expressions\TEVariable))
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Parser\ExpressionParser.php(108): MKrawczyk\Mpts\Parser\ExpressionParser->parseNormal(3)
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Parser\AbstractMLParser.php(135): MKrawczyk\Mpts\Parser\ExpressionParser->parseNormal()
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Parser\AbstractMLParser.php(69): MKrawczyk\Mpts\Parser\AbstractMLParser->parseElement()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Parser\XMLParser.php(16): MKrawczyk\Mpts\Parser\AbstractMLParser->parseNormal()
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(73): MKrawczyk\Mpts\Parser\XMLParser::Parse('<section class=...')
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(67): Core\StandardController->loadMPTS('<section class=...', Array)
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(11): Core\StandardController->addView('ExternalData', 'ExternalData', Array)
+#8 [internal function]: ExternalData\Controllers\ExternalDataController->index()
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#10 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#11 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#12 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/')
+#13 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#14 {main}
+[18-Jun-2024 10:50:24 UTC] TypeError: DOMDocument::createTextNode(): Argument #1 ($data) must be of type string, array given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TExpressionText.php:14
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TExpressionText.php(14): DOMDocument->createTextNode(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TExpressionText->execute(Object(MKrawczyk\Mpts\Environment))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TForeach.php(38): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TForeach->execute(Object(MKrawczyk\Mpts\Environment))
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TDocumentFragment.php(15): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(87): MKrawczyk\Mpts\Nodes\TDocumentFragment->execute(Object(MKrawczyk\Mpts\Environment))
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(67): Core\StandardController->loadMPTS('<section class=...', Array)
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(11): Core\StandardController->addView('ExternalData', 'ExternalData', Array)
+#10 [internal function]: ExternalData\Controllers\ExternalDataController->index()
+#11 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#12 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#13 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#14 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/')
+#15 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#16 {main}
+[18-Jun-2024 10:50:33 UTC] TypeError: DOMDocument::createTextNode(): Argument #1 ($data) must be of type string, array given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TExpressionText.php:14
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TExpressionText.php(14): DOMDocument->createTextNode(Array)
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TExpressionText->execute(Object(MKrawczyk\Mpts\Environment))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TForeach.php(38): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TForeach->execute(Object(MKrawczyk\Mpts\Environment))
+#5 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TElement.php(29): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\mpts\src\Nodes\TDocumentFragment.php(15): MKrawczyk\Mpts\Nodes\TElement->execute(Object(MKrawczyk\Mpts\Environment))
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(87): MKrawczyk\Mpts\Nodes\TDocumentFragment->execute(Object(MKrawczyk\Mpts\Environment))
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\StandardController.php(67): Core\StandardController->loadMPTS('<section class=...', Array)
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\Controllers\ExternalDataController.php(11): Core\StandardController->addView('ExternalData', 'ExternalData', Array)
+#10 [internal function]: ExternalData\Controllers\ExternalDataController->index()
+#11 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(108): ReflectionMethod->invokeArgs(Object(ExternalData\Controllers\ExternalDataController), Array)
+#12 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\StandardRouter.php(58): Core\Routing\Router->runMethod()
+#13 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(42): Core\Routing\StandardRouter->invoke()
+#14 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ExternalData/')
+#15 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#16 {main}
+[18-Jun-2024 13:06:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ExternalData\BussinesLogic\ExternalData::ExternalData\BussinesLogic\{closure}(), 1 passed in C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SortNode.php on line 36 and exactly 2 expected in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php:49
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SortNode.php(36): ExternalData\BussinesLogic\ExternalData->ExternalData\BussinesLogic\{closure}(Object(stdClass))
+#1 [internal function]: MKrawczyk\FunQuery\SortNode->MKrawczyk\FunQuery\{closure}(Object(stdClass), Object(stdClass))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SortNode.php(33): usort(Array, Object(Closure))
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\FunQuery.php(116): MKrawczyk\FunQuery\SortNode->getIterator()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\FunQuery.php(107): MKrawczyk\FunQuery\FunQuery->toArray()
+#5 [internal function]: MKrawczyk\FunQuery\FunQuery->jsonSerialize()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\AjaxRouter.php(64): json_encode(Array, 512)
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(47): Core\Routing\AjaxRouter->sendBackSuccess()
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#10 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php on line 49
+[18-Jun-2024 13:11:55 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php:106
+Stack trace:
+#0 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(106): in_array('test1234', 'te')
+#1 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php(49): ExternalData\BussinesLogic\ExternalData->passesColumnFilters(Object(stdClass), Object(stdClass))
+#2 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\SubFilterNode.php(90): ExternalData\BussinesLogic\ExternalData->ExternalData\BussinesLogic\{closure}(Object(stdClass))
+#3 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\FunQuery.php(116): MKrawczyk\FunQuery\SubFilterNode->valid()
+#4 C:\other\Documents\GitHub\streamy\FrontendForHeadless\vendor\mkrawczyk\funquery\src\FunQuery.php(107): MKrawczyk\FunQuery\FunQuery->toArray()
+#5 [internal function]: MKrawczyk\FunQuery\FunQuery->jsonSerialize()
+#6 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\AjaxRouter.php(64): json_encode(Array, 512)
+#7 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Routing\Router.php(47): Core\Routing\AjaxRouter->sendBackSuccess()
+#8 C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\Core\Init.php(6): Core\Routing\Router::routeHttp('/ajax/ExternalD...')
+#9 C:\other\Documents\GitHub\streamy\FrontendForHeadless\public_html\index.php(1): include_once('C:\\other\\Docume...')
+#10 {main}
+  thrown in C:\other\Documents\GitHub\streamy\FrontendForHeadless\modules\ExternalData\BussinesLogic\ExternalData.php on line 106

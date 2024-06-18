@@ -24,7 +24,7 @@ export class list {
                 ret.push({
                     name: "Edytuj",
                     icon: 'icon-edit',
-                    href: "/ExternalData/edit/"+data.objectName+"/" + rows[0]._id,
+                    href: "/ExternalData/edit/"+data.objectName+"/" + rows[0].id,
                     main: true,
                     action: 'edit'
                 });

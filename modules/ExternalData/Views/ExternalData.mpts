@@ -1,0 +1,8 @@
+<section class="card page-ExternalData-types" data-width="6">
+
+    <ul>
+        <:foreach collection=objectTypes item=name>
+            <li><a href="/ExternalData/list/":name >{{name}}</a></li>
+        </:foreach>
+    </ul>
+</section>

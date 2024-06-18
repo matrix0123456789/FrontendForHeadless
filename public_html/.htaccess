@@ -12,7 +12,7 @@
             Header set Expires 0
         </Else>
         Header set Service-Worker-Allowed "/"
-        Header set x-sw-version "1718216860"
+        Header set x-sw-version "1718714332"
         <FilesMatch "/dist/.*">
             Header set x-sw-cache "1"
         </FilesMatch>

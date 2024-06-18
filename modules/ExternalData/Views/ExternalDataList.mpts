@@ -1,3 +1,6 @@
+<div class="topBarButtons">
+    <a href="/ExternalData/add/":objectName class="button action-add" title="Dodaj"><span class="icon-add"></span>Dodaj</a>
+</div>
 <section class="card page-ExternalData-list" data-width="6">
     <div class="externalDataList"></div>
 </section>
